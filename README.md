@@ -1,13 +1,19 @@
-# Зачетное состязание на Kaggle WiDS Datathon 2020
-Задача: сравнить/победить LightAutoML кастомным решением.
+# Зачетное состязание на Kaggle WiDS Datathon 2020 
 
-## Результат для ЛЛ:
+(https://www.kaggle.com/competitions/widsdatathon2020/)
 
+**Задача**: сравнить/победить LightAutoML кастомным решением .
 
+## Спойлер:
+**LAMA**
+![Image One](https://skrinshoter.ru/s/161225/QBVlhpc2.jpg?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-16-12-2025%2013:10:57.jpg)
+
+**LGBM + Optuna**
+![Image Two](https://skrinshoter.ru/s/161225/I9anjGTH.jpg?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-16-12-2025%2013:14:18.jpg)
 
 ## 01_eda.ipynb — анализ данных
 
-- **Данные**: train `91713 × 186`, test `39308 × 186` (WiDS Datathon 2020).
+- **Данные**: train `91713 × 186`, test `39308 × 186` (WiDS Datathon 2020 https://www.kaggle.com/competitions/widsdatathon2020/) .
 - **Таргет**: бинарный `hospital_death`, доля положительного класса ≈ **8.6%** (класс сильно несбалансирован).
 - **ID-колонки**: `encounter_id`, `patient_id` исключаются из признаков и используются только для группировок/валидации.
 - **Стабильность таргета во времени**: по скользящему среднему вдоль `encounter_id` утечки и трендов не обнаружено (таргет стабилен).
