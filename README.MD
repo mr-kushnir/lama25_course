@@ -1,3 +1,5 @@
+# Зачетное состязание на Kaggle WiDS Datathon 2020
+
 ## 01_eda.ipynb — анализ данных
 
 - **Данные**: train `91713 × 186`, test `39308 × 186` (WiDS Datathon 2020).
